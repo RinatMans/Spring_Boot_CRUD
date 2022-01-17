@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import web_crud.dao.UserDao;
 
+
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
