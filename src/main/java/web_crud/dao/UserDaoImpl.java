@@ -24,7 +24,6 @@ public class UserDaoImpl implements UserDao {
         return entityManager.createQuery("select distinct user from   User user  join fetch user.roles ", User.class).getResultList();
     }
 
-
     @Override
     public User findById(Long id) {
         return entityManager.find(User.class, id);
@@ -39,12 +38,7 @@ public class UserDaoImpl implements UserDao {
         user.setRoles(user.getRoles());
 
         entityManager.merge(user);
-//        User userNew = entityManager.getReference(User.class, id);
-//        userNew.setName(user.getName());
-//        user.setPassword(user.getPassword());
-//        user.setRoles(user.getRoles());
     }
-
 
     @Override
     public void deleteUser(Long id) {

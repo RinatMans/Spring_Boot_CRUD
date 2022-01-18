@@ -33,4 +33,5 @@ public class RoleDaoImp implements RoleDao{
         query.setParameter("paramRole", role);
         return query.getResultList().stream().findAny().orElse(null);
     }
+
 }

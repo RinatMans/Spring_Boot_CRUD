@@ -30,7 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .successHandler(loginSuccessHandler)
                 // указываем action с формы логина
                 .loginProcessingUrl("/login")
-                // Указываем параметры логина и пароля с формы логина
+                // Указываем параметры логина и пароля с формы  логина
                 .usernameParameter("j_username")
                 .passwordParameter("{bcrypt}")
                 // даем доступ к форме логина всем

@@ -9,4 +9,5 @@ public class Spring_Boot_CRUD {
     public static void main(String[] args) {
         SpringApplication.run(Spring_Boot_CRUD.class, args);
     }
+
 }

@@ -57,5 +57,4 @@ public class UserServiceImp implements UserService{
     public User findByUserName(String name) {
         return userDao.findByUserName(name);
     }
-
 }

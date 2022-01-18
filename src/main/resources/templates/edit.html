@@ -6,7 +6,6 @@
 </head>
 <body>
 <h1>Редактирование пользователя</h1>
-
 <div>
     <form th:method="POST" th:action="@{/edit/{id}(id=${user.getId()})}" th:object="${user}">
         <table>

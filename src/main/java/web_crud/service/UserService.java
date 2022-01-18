@@ -5,6 +5,7 @@ import web_crud.model.User;
 import java.util.List;
 
 public interface UserService {
+
     void saveNewUser(User user);
 
     List<User> getUsersList();

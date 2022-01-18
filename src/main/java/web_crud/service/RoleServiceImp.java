@@ -35,4 +35,5 @@ public class RoleServiceImp implements RoleService{
     public Role findRoleByRoleName(String RoleName) {
         return this.roleDao.findRoleByRoleName(RoleName);
     }
+
 }
